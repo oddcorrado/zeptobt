@@ -1,0 +1,14 @@
+root
+->
+--$ ! zzz=1f
+--dodge 10 5 Dodge true
+--successify
+---vel zzz
+--?
+--->
+----trigger Ground false
+----vel 0
+--->
+----trigger Fall false
+----$ zzz=-zzz
+----scale zzz
